@@ -46,3 +46,6 @@ Tot BR: Perhaps unintuitively, the coefficient for the Tot BR was -$201,117.92. 
 
 Insight 3: Mean Absolute Error
 The MAE of $659,134 is the average absolute difference between predicted value and measured value from our training dataset. We believe that it is worthwhile to compare this number to the average absolute difference between listed price and bought price, which amounts to $166,761. The huge price difference is again tied to our problem definition that buyers often find it difficult to win offers by simply guessing, as they may easily overpay or lose to a higher bid. Our model can give a reference point about the possible range of transaction price, so that realtors and buyers can make proper offers that align with historical trends. 
+
+Full Report: [Formal Report.pdf](https://github.com/Au-Jonathan/BCIT-HousingProject-DataCleaning/files/8248880/Formal.Report.pdf)
+
