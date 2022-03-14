@@ -31,6 +31,7 @@ Summary Statistics
 
 Multivariate Linear Regression Model:
 Price = 612552.3 - 1434.7Age + 986TotFlArea + 4481.9Frontage Feet - 201117Tot BR 
+
 ![image](https://user-images.githubusercontent.com/91990283/158269299-3e598fc6-9874-4c76-b993-cc53a7f641a0.png)
 
 Summary Statistical performance/Relevance/Confidence of the Model
