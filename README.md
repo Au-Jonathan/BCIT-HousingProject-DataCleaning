@@ -42,7 +42,6 @@ Price = 612552.3 - 1434.7Age + 986TotFlArea + 4481.9Frontage Feet - 201117Tot BR
 
 ![image](https://user-images.githubusercontent.com/91990283/158269299-3e598fc6-9874-4c76-b993-cc53a7f641a0.png)
 
-Summary Statistical performance/Relevance/Confidence of the Model
 Insight 1: Regression statistics and R-square
 The R-square of the model is 0.5512, meaning that the proportion of 55% of the variance for the transaction price is explained by the predictor variables of our model. That makes sense because house age, floor area, number of bedrooms are the key determinants of price, but that’s only half of the whole picture. We realized that this could be the best that we can get from those variables because there are other critical variables that we failed to take into account. One obvious example is locational information. Since this data set includes all the transactions from greater Vancouver, and the address column that we have dropped earlier only includes the street name and unit number, we found it difficult to generalize a more specific geographical identification. That means, price variations between Yaletown and Marpole were not being explained by our model. We believe this omission has also caused the MAE to be $659,134 and Standard Error to be $1,084,843, because the same house specs are priced differently in various regions. 
 
