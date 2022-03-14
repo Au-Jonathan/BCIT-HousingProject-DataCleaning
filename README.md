@@ -1,5 +1,13 @@
 # BCIT-HousingProject-DataCleaning-backup
 
+Business Problem & Hypothesis
+When houses are listed for sale on Multiple Listing Services, the seller can ask their agent to list the property at any price they wish. This is often different from what the property ends up selling for, with extreme cases being scenarios where houses are listed way below market in order to create bidding wars, or what is known as “multiple offers.” Agents working with buyers can become increasingly frustrated due to the inability to close on a sale, as their offers are often lost due to higher bids. 
+
+By creating a multivariate linear regression model, we can give a quantifiable answer to how much approximately a house would be bought for, and what a seller could expect to get if they listed their house on the market given those given home facts and features. For our project, we will focus on buyers, and the model will be used to help buyers determine the fair price of a house to avoid overpaying or giving low offers. 
+
+There are notable differences between detached homes and attached homes, including vastly different styles of building (i.e., attached includes duplexes, studio apartments, no lot size, strata fees), we have decided to use data only containing single family homes in the Greater Vancouver area. No leasehold properties or modular homes were used in the data. 
+
+
 Data Summary
 We retrieved our data from Paragon MLS, and began our data cleaning step right afterwards. For simplicity we only collected monthly data for 2020. We first combined all the datasets from January to December into a single dataset, which contains 4835 rows of transaction records with price and housing information. Then we dropped all the unnecessary text columns, such as: PicCoun, Pics, S/A, Address, Status. Next we dropped the rows with null values in the Sq. feet column and dropped the Depth column as it had inconsistent formatting. We also filtered out rows with erroneous inputs such as built year equalling to 9999. Finally we transformed the List Date column into categorical variables by showing year, month and day separately. We also discovered an imbalance of samples in the TypeDwel column, 98% of the data belongs to type 1, therefore we dropped the 3 other types. 
 
