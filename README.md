@@ -1,6 +1,7 @@
 # BCIT-HousingProject-DataCleaning-backup
 
 Business Problem & Hypothesis
+
 When houses are listed for sale on Multiple Listing Services, the seller can ask their agent to list the property at any price they wish. This is often different from what the property ends up selling for, with extreme cases being scenarios where houses are listed way below market in order to create bidding wars, or what is known as “multiple offers.” Agents working with buyers can become increasingly frustrated due to the inability to close on a sale, as their offers are often lost due to higher bids. 
 
 By creating a multivariate linear regression model, we can give a quantifiable answer to how much approximately a house would be bought for, and what a seller could expect to get if they listed their house on the market given those given home facts and features. For our project, we will focus on buyers, and the model will be used to help buyers determine the fair price of a house to avoid overpaying or giving low offers. 
